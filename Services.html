@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my parlour</title>
+    <link rel="stylesheet" href="Services.css">
+</head>
+<body>
+    
+
+    <header><h1>HAIR & SPA</h1></header>
+    <h2>Ladies Beauty Parlour</h2>
+    <div class="container">
+        <!-- <div class="card">
+            <h3>Normal Waxing Package <button>400/-</button></h3>
+            <p>Full Legs+Full Arms+(Free Threading)</p>
+        </div> -->
+        <div class="card" data-package="Normal Waxing Package" data-price="400">
+            <h3>Normal Waxing Package <button class="addToCartButton">Add to Cart</button><button>400/-</button></h3>
+            <p>Full Legs+Full Arms+(Free Threading) </p>
+        </div>
+        <div class="card" data-package="Rica Waxing Package" data-price="600">
+            <h3>Rica Waxing Package <button class="addToCartButton">Add to Cart</button> <button>600/-</button></h3>
+            <p>Full Legs+Full Arms+(Free Back Wax) </p>
+        </div>
+        <div class="card" data-package="Basic Hair Cut Offer" data-price="200">
+            <h3>Basic Hair Cut Offer <button class="addToCartButton">Add to Cart</button> <button>200/-</button></h3>
+            <p>Straight Cut & U Cut</p>
+        </div>
+        <div class="card" data-package="D-Tan Package" data-price="900">
+            <h3>D-Tan Package<button class="addToCartButton">Add to Cart</button><button>900/-</button></h3>
+            <p>Raga D-Tan+Fruit Facial+Back Massage +Hand Waxing </p>
+        </div>
+        <div class="card" data-package="Mini-Pedi Package" data-price="700">
+            <h3>Mini-Pedi Package<button class="addToCartButton">Add to Cart</button><button>1000/-</button></h3>
+            <p>VLCC Menicuer+VLCC pedicure </p>
+        </div>
+
+        <div class="card" data-package="Beauty Package" data-price="1000">
+            <h3>Mini-Pedi Package<button class="addToCartButton">Add to Cart</button><button>1000/-</button></h3>
+            <p>Facial/Menicure Pedicure/Bleach </p>
+        </div>
+        <div class="card" data-package="Mehandi Art" data-price="5000">
+            <h3>Mehandi Art <button class="addToCartButton">Add to cart</button><button>5000/-</button></h3>
+            <p>Dulhan Menhandi and Normal Mehandi </p>
+        </div>
+        <div class="card" data-package="Makeup " data-price="10000">
+            <h3>Makeup <button class="addToCartButton">Add to Cart</button><button>2000-10000/-</button></h3>
+            <p>Party Makeup & Bridel Makeup </p>
+        </div>
+        <div class="card" data-package="Professional Facial Offers" data-price="10000">
+            <h4><p>Professional Facial Offers<button class="addToCartButton">Add to Cart</button>  <button>10000/-</button></p></h4>
+          
+        </div>
+        <div class="card" data-package="Loreal Hair Spa" data-price="800">
+            <h4><p>Loreal Hair Spa<button class="addToCartButton">Add to Cart</button> <button>800/-</button></p></h4>
+           
+        </div>
+        <div class="card" data-package="Aroma Head Massage" data-price="300">
+            <h4><p>Aroma Head Massage<button class="addToCartButton">Add to Cart</button>  <button>300/-</button></p></h4>
+          
+        </div>
+        <div class="card" data-package="Pre Bridel Package" data-price="5000">
+            <h4><p>Pre Bridel Package<button class="addToCartButton">Add to Cart</button> <button>5000/-</button></p></h4>
+          
+        </div>
+    
+    </div>
+    <div class="buy">
+        <h1>Buy Any Package</h1>
+        <ul id="cartList"></ul>
+        <div id="totalBox"></div>
+        <button id="buyButton">Buy</button>
+        <div id="paymentForm" style="display: none;">
+            <label for="cardElement">Card details:</label>
+            <div id="cardElement"></div>
+            <button id="submitPayment">Submit Payment</button>
+        </div>
+    </div>
+    <footer><h2> All sservices For Appointment Contact : 9755431540 <Address>Indore,Vijay Nagar:- Lasudiya Mori</Address></h2></footer>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="services.js"></script>
+</body>
+</html>

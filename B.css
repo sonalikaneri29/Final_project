@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Protest+Revolution&family=Sofia&display=swap');
+body {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(242, 232, 245);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+header {
+    background-color: #d88fd6;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.sonali{
+    text-align: center;
+    color: purple;
+    font-family: "Sofia", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 700%;
+    margin-top: -20px;
+    padding: 20px;
+}
+.meet {
+    display: flex; 
+    flex-direction: column; 
+    display: flex;
+    align-items: flex-start; 
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    
+    margin-left: 20%;
+    
+    
+    
+    /* box-shadow:  0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.cute img {
+    width: 500px;
+    height: 900px; 
+    box-shadow: 2 4 10px rgba(182, 171, 171, 0.3); 
+    margin-top: -700px;
+    margin-left: 50px;
+    display: block;
+   
+}
+.meet p{
+    margin-left: 50%;
+    text-align: center;
+    color: rgb(183, 82, 48);
+    font-family: "Sofia", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 150%;
+    line-height: 1.6;
+} 
+   
+.meet h2{
+    margin-left: 50%;
+    text-align: center;
+    color: rgb(49, 4, 79);
+    font-family: "Sofia", cursive;
+    font-size: 400%;
+    
+}
+.clinic-footer {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px; /* Add some padding for better spacing */
+    text-align: center; /* Center the text */
+  }
+  
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.column {
+    width: 30%; /* Adjust the width of each column */
+}
+  
+.clinic-info h3, .social-media h3, .service-hours h3 {
+    color: #bf1111;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.clinic-info p, .social-media a, .service-hours li {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+    size: 20px;
+}
+  
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.icon img {
+    width: 30px; /* Set the icon size */
+    height: auto;
+}
+.clinic-info p{
+    font-size: 20px;
+  
+    color: rgb(16, 15, 16);
+}
+.service-hours li{
+    font-size: 20px;
+    color: black;
+}
+.social-media .icon img {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio */
+    border-radius: 20px;
+    margin-top: 15px;
+}
+div {
+    text-align: center;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #bf8eb9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

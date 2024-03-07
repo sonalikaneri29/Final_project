@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Amaranth", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+    
+}
+
+header {
+    background-color: #e19bd9;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-column {
+    text-align: center;
+}
+
+.contact-column h2 {
+    color: #333;
+}
+
+.contact-column p {
+    color: #555;
+}
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f5eeee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ecb0f7;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #671b76;
+}
+/* .head {
+    text-align: center; 
+    background-color: #e19bd9; 
+    padding: 20px; 
+    
+} */
+
+.head header {
+    font-size: 50px;
+    color: white; 
+    position: fixed;
+}
+h1 {
+    text-align: center; 
+    color: #1f1a1e; 
+    font-size: 36px; 
+    margin-top: 50px; 
+}
